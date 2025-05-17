@@ -1,0 +1,15 @@
+{
+    "name": "rivolink/quick-scp",
+    "description": "A plugin for secure file transfer using SCP with PHP.",
+    "type": "plugin",
+    "authors": [
+        {
+            "name": "RivoLink",
+            "email": "rivo.link@gmail.com"
+        }
+    ],
+    "require": {
+        "phpseclib/phpseclib": "^3.0",
+        "symfony/yaml": "^5.4"
+    }
+}

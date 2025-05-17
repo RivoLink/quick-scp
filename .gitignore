@@ -1,0 +1,12 @@
+/vendor/
+/notes/
+
+*.rl
+*.local
+
+config.yaml
+config.*.yaml
+!config.dist.yaml
+
+# compatible php7|php8
+composer.lock
