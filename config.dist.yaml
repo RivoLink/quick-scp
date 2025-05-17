@@ -1,0 +1,18 @@
+# server details
+host: xxx.xxx.xxx.xxx
+port: 22
+user: remote_user
+
+# password|ssl
+mode: password
+
+# mode password
+password: ReMoTePaSsWoRd
+
+# mode ssl
+private_key: /path/private.key
+passphrase: PaRaPhRaSe
+
+# local:remote
+files:
+  - /local/file.txt:/remote/file.txt
